@@ -1,0 +1,86 @@
+body {
+    background: hsla(232, 88%, 54%, 1);
+
+    background: linear-gradient(315deg, hsla(232, 88%, 54%, 1) 0%, hsla(210, 77%, 48%, 1) 86%);
+
+    background: -moz-linear-gradient(315deg, hsla(232, 88%, 54%, 1) 0%, hsla(210, 77%, 48%, 1) 86%);
+
+    background: -webkit-linear-gradient(315deg, hsla(232, 88%, 54%, 1) 0%, hsla(210, 77%, 48%, 1) 86%);
+
+    /*filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#203CF1", endColorstr="#1D7BDA", GradientType=1 );*/
+}
+
+img {
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+
+}
+
+button {
+
+    width: 100px;
+    height: 150px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: opacity 0.5 ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#main {
+    height: 600px;
+    width: 500px;
+    background: white;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-left: 35%;
+    border-radius: 25px;
+}
+
+#rodape {
+    height: 100px;
+    width: 500px;
+    margin-left: 35%;
+    background: white;
+
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#resultado {
+    height: 100px;
+    width: 100px;
+    margin-top: 13px;
+    border-radius: 50px;
+
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#one,#two {
+   
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+#result{
+    height: 90px;
+    width: 500px;
+    background: rgb(243, 207, 4);
+    margin-bottom: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 50px;
+    font-weight: bold;
+
+}

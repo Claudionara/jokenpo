@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jokenpo</title>
+</head>
+
+<body>
+    <section id="main">
+        <h1>Jokenpô</h1>
+
+        <button id="pedra" onclick="playHuman('Pedra') "> <img src="./img/pedra.png" alt="simbolo-pedra"></button>
+        <button id="papel" onclick="playHuman('Papel') "><img src="./img/papel.png" alt="simbolo-papel"></button>
+        <button id="tesoura" onclick="playHuman('Tesoura') "><img src="./img/tesoura.png" alt="simbolo-tesoura"></button>
+
+
+         <h2 id="one" >Jogador 1: </h2> <!-- classe="valor1"  classe="valor2"-->
+        <h2 id="two">Jogador 2 :</h2>
+
+        <img id="resultado" src="./img/campeao.jpg" alt="champion">
+        <div id="result"></div>
+    </section>
+
+
+
+</body>
+<script src="./scripts.js"></script>
+</html>
